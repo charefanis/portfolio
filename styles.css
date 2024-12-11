@@ -1,10 +1,5 @@
-.yuji-mai-regular {
-    font-family: "Yuji Mai", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
 body{
-    font-family: "Yuji Mai";
+    font-family: Arial;
     background-color: beige;
     margin: 0;
     text-align: center  ;
