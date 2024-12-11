@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#section1">About</a>
+        <a href="#section2">Work</a>
+        <a href="#section3">Resume</a>
+        <a href="#section4">Contact</a>
+        <a href=""><i class="fa-solid fa-user"></i></a>
+    </nav>
+    <section class="home">
+        <h1>Home</h1>
+        <p>Welcome to my Portfolio</p>
+    </section>
+    <section class="about" id="section1">
+        <h1>About</h1>
+        <p>Hi my name is Anis I study web development at INSIM Boumerdes <br> my main languages are HTML,CSS  and JavaScript</p>
+        <p>Here is an introduction to Web Development</p>
+        <iframe width="949" height="534" src="https://www.youtube.com/embed/F4fbwKV9dBU" title="Everything about Web Design in 3 minutes." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+    <section class="work" id="section2">
+        <h1>Work</h1></section>
+
+    <p>Here is a summary of my recent projects:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Project Name</th>
+                <th>Description</th>
+                <th>Technologies</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Portfolio Website</td>
+                <td>A personal portfolio to showcase my skills and projects.</td>
+                <td>HTML, CSS, JavaScript</td>
+                <td><a href="#">View Project</a></td>
+            </tr>
+            <tr>
+                <td>E-commerce Site</td>
+                <td>An online store for a fictional brand.</td>
+                <td>HTML, CSS, React</td>
+                <td><a href="#">View Project</a></td>
+            </tr>
+            <tr>
+                <td>To-Do List App</td>
+                <td>A simple app to manage daily tasks.</td>
+                <td>JavaScript, CSS</td>
+                <td><a href="#">View Project</a></td>
+            </tr>
+        </tbody>
+    </table>
+    <section class="resume" id="section3">
+        <h1>Resume</h1>
+        <p>Click the button below to download my resume</p>
+        <button>Download my resume</button>
+    </section>
+    <section class="contact" id="section4">
+        <h1>Contact</h1>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <br>
+            <label for="phone">Phone Number</label>
+            <input type="tel" name="phone" placeholder="Enter your phone number" required>
+            <br>
+            <label for="message">Message</label>
+            <textarea id="message" name="textarea" rows="4" placeholder="Write a message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <br>
+    <footer>
+        <p>Location Boumerdes</p>
+        <p>Made by CHAREF Anis</p>
+    </footer>
+</body>
+</html>
